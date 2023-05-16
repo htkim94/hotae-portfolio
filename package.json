@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev_js": "vite",
+    "build_js": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev_css": "postcss ./src/assets/css/base.css -o ./src/assets/dist/main.css -w",
+    "dev": "npm-run-all --parallel dev_js dev_css"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,7 +25,9 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
