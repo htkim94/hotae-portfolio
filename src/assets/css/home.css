@@ -21,6 +21,11 @@ h1::after {
   animation: typewriter 3.5s steps(28) forwards, blink 800ms 4s infinite
 }
 
+#home-down-arrow {
+  bottom: 50px;
+  animation: down 1.5s ease-in-out infinite;
+}
+
 @keyframes typewriter {
   to {
     left: 100%;
@@ -30,5 +35,20 @@ h1::after {
 @keyframes blink {
   to {
     background: transparent;
+  }
+}
+
+@keyframes down {
+  0% {
+    bottom: 50px;
+    opacity: 0%;
+  }
+  50% {
+    bottom: 30px;
+    opacity: 100%;
+  }
+  100% {
+    bottom: 50px;
+    opacity: 0%;
   }
 }
