@@ -9,7 +9,7 @@ function Header({ appSections }: HeaderProps) {
   return (
     <header
       id="header"
-      className="fixed w-full flex justify-between items-center px-10 py-6 bg-black text-white"
+      className="fixed z-50 w-full flex justify-between items-center px-10 py-6 bg-black text-white"
     >
       <Logo />
       <div className="flex gap-8 text-xl tracking-widest">
