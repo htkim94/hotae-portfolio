@@ -9,7 +9,10 @@ export default {
         sans: ['Ubuntu Regular', 'Helvetica', 'Arial', 'sans-serif'],
         'ubuntu-mono': ['UbuntuMono Regular', 'monospace'],
         'ubuntu-mono-bold': ['UbuntuMono Bold', 'monospace']
-      }
+      },
+      maxHeight: {
+        'home-hero': '80rem',
+      },
     },
   },
   plugins: [],
