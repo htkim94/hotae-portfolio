@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'UbuntuMono Regular';
+  src: url(../fonts/UbuntuMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'UbuntuMono Bold';
+  src: url(../fonts/UbuntuMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
