@@ -1,3 +1,5 @@
+/* Got the type writing animation solution from Kevin Powell's video */
+/* Link: https://www.youtube.com/watch?v=w1nhwUGsG6M&ab_channel=KevinPowell */
 h1::before,
 h1::after {
   content: "";
@@ -10,13 +12,13 @@ h1::after {
 
 h1::before {
   background: rgb(100 116 139);
-  animation: typewriter 4s steps(28) forwards
+  animation: typewriter 3.5s steps(28) forwards
 }
 
 h1::after {
-  width: 0.125em;
+  width: 0.12em;
   background: black;
-  animation: typewriter 4s steps(28) forwards, blink 800ms infinite
+  animation: typewriter 3.5s steps(28) forwards, blink 800ms 4s infinite
 }
 
 @keyframes typewriter {
