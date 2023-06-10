@@ -1,7 +1,11 @@
 import Logo from "./Logo.tsx";
 import NavItem from "./NavItem.tsx";
 
-function Header({ appSections }: { appSections: (HTMLElement | null)[] }) {
+interface HeaderProps {
+  appSections: (Element | null)[];
+}
+
+function Header({ appSections }: HeaderProps) {
   return (
     <header
       id="header"
