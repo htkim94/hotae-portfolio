@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header sections={sections} />
-      <Home />
+      <Home section={sections[2]} />
       <About />
       <Projects />
       <Contact />
