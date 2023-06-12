@@ -11,7 +11,7 @@ function Home(
         <h1 className="relative w-max md:text-5xl lg:text-6xl xl:text-7xl font-ubuntu-mono font-bold uppercase">
           HELLO, MY NAME IS HOTAE KIM.
         </h1>
-        <h2 className="lg:text-2xl xl:text-3xl tracking-wider">
+        <h2 className="md:text-2xl xl:text-3xl tracking-wider">
           SOFTWARE ENGINEER, FRONT END WEB DEVELOPER
         </h2>
       </div>
