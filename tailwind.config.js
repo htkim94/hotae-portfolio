@@ -13,6 +13,12 @@ export default {
       maxHeight: {
         'home-hero': '80rem',
       },
+      colors: {
+        'discord-900': '#202225',
+        'discord-800': '#292b2f',
+        'discord-700': '#2f3136',
+        'discord-600': '#40444b',
+      }
     },
   },
   plugins: [],

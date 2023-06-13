@@ -4,7 +4,7 @@ function About(
   return (
     <section
       id="about"
-      className="h-screen bg-green-500 p-24"
+      className="h-screen bg-discord-700 p-24"
       // ref={el => appSections[1] = el}
     >
       <div className="text-white">THIS IS About PAGE</div>

@@ -11,13 +11,13 @@ h1::after {
 }
 
 h1::before {
-  background: rgb(100 116 139);
+  background: #292b2f;
   animation: typewriter 3.5s steps(28) forwards
 }
 
 h1::after {
   width: 0.12em;
-  background: black;
+  background: white;
   animation: typewriter 3.5s steps(28) forwards, blink 800ms 4s infinite
 }
 

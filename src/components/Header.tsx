@@ -10,7 +10,7 @@ function Header({ sections }: HeaderProps) {
   return (
     <header
       id="header"
-      className="fixed z-50 w-full flex justify-between items-center px-10 py-6 bg-black text-white"
+      className="fixed z-50 w-full flex justify-between items-center px-10 py-5 bg-discord-900 text-white"
     >
       <Logo section={sections[0]} />
       <div className="flex gap-8 text-xl tracking-widest">

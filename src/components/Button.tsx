@@ -7,7 +7,7 @@ interface ButtonProps {
 }
 
 function Button({ children, isResume, section }: ButtonProps) {
-  const buttonStyle = "bg-black text-white py-3 px-6 w-40 h-14 rounded-lg flex justify-center items-center"
+  const buttonStyle = "bg-discord-600 text-white py-3 px-6 w-40 h-14 rounded-lg flex justify-center items-center"
 
   return(
     isResume ?
