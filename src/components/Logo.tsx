@@ -12,7 +12,7 @@ function Logo({ section }: LogoProps) {
       className="flex gap-4 items-center hover:cursor-pointer"
       onClick={() => section?.scrollIntoView({block: "start", inline: "nearest", behavior: "smooth"})}
     >
-      <div className="relative bg-cyan-400 rounded-xl w-12 h-12 overflow-hidden">
+      <div className="relative bg-cyan-400 rounded-full w-12 h-12 overflow-hidden">
         <img className="absolute bottom-0" src={faceImg} alt="hotae kim face" />
       </div>
       <div className="text-cyan-400 text-xl tracking-widest font-bold">HOTAE KIM</div>
