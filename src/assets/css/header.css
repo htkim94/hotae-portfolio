@@ -1,0 +1,25 @@
+.mobile-nav-enter {
+  max-height: 0px;
+}
+
+.mobile-nav-enter-active {
+  max-height: 200px;
+  transition: max-height 400ms ease-in;
+}
+
+.mobile-nav-enter-done {
+  max-height: 200px;
+}
+
+.mobile-nav-exit {
+  max-height: 200px;
+}
+
+.mobile-nav-exit-active {
+  max-height: 0px;
+  transition: max-height 400ms ease-out;
+}
+
+.mobile-nav-exit-done {
+  height: 0%;
+}
