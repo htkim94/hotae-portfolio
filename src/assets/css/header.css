@@ -4,7 +4,7 @@
 
 .mobile-nav-enter-active {
   max-height: 200px;
-  transition: max-height 400ms ease-in;
+  transition: max-height 400ms ease;
 }
 
 .mobile-nav-enter-done {
@@ -17,7 +17,7 @@
 
 .mobile-nav-exit-active {
   max-height: 0px;
-  transition: max-height 400ms ease-out;
+  transition: max-height 400ms ease;
 }
 
 .mobile-nav-exit-done {

@@ -36,7 +36,7 @@ function Header({ sections }: HeaderProps) {
       <CSSTransition
         in={mobileMenuOpen}
         classNames="mobile-nav"
-        timeout={{ exit: 400, enter: 400 }}
+        timeout={{ exit: 300, enter: 500 }}
         unmountOnExit
       >
         <div
