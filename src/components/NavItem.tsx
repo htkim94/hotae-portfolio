@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { PageSections } from "../interfaces/PageSections.interface";
 
 interface NavItemProps {
@@ -7,9 +6,6 @@ interface NavItemProps {
 }
 
 function NavItem({ type, section }: NavItemProps) {
-  useEffect(() => {
-    console.log(section, "NavItem")
-  }, [section])
   return (
     <div
       className="flex gap-8 text-xl tracking-widest hover:cursor-pointer"
