@@ -52,3 +52,15 @@ h1::after {
     opacity: 10%;
   }
 }
+
+.home-button {
+  transform: translateY(0.125rem);
+  transition: transform 250ms ease-in;
+  filter: saturate(1.25);
+}
+
+.home-button:hover {
+  transform: translateY(-0.125rem);
+  transition: transform 250ms ease-in;
+  filter: saturate(2.25);
+}
