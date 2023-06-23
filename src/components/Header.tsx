@@ -26,7 +26,7 @@ function Header({ sections }: HeaderProps) {
             <BurgerMenu onClick={() => setMobileMenuOpen(true)} />
           }
         </div>
-        <div className="hidden lg:flex gap-8 text-white text-xl tracking-widest">
+        <div className="hidden lg:flex gap-14 text-white text-xl tracking-widest">
           <NavItem type="home" section={sections[0]} />
           <NavItem type="about" section={sections[1]} />
           <NavItem type="projects" section={sections[2]} />
