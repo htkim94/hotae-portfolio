@@ -12,3 +12,13 @@
   font-family: 'Ubuntu Regular';
   src: url(../fonts/Ubuntu-Regular.ttf);
 }
+
+@font-face {
+  font-family: 'Ubuntu Med';
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url(../fonts/Ubuntu-Bold.ttf);
+}

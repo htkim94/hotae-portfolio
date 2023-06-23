@@ -7,6 +7,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Ubuntu Regular', 'Helvetica', 'Arial', 'sans-serif'],
+        'ubuntu-med': ['Ubuntu Med'],
+        'ubuntu-bold': ['Ubuntu Bold'],
         'ubuntu-mono': ['UbuntuMono Regular', 'monospace'],
         'ubuntu-mono-bold': ['UbuntuMono Bold', 'monospace']
       },
@@ -18,6 +20,7 @@ export default {
         'discord-800': '#292b2f',
         'discord-700': '#2f3136',
         'discord-600': '#40444b',
+        'discord-blurple': '#5865f2',
       }
     },
   },
