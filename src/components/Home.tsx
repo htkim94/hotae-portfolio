@@ -26,7 +26,7 @@ function Home({ section }: HomeProps) {
             </h2>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-12">
+        <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-12">
           <Button section={section}>PROJECTS</Button>
           <Button isResume={true}>RESUME</Button>
         </div>
