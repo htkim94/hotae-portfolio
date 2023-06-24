@@ -10,7 +10,6 @@ function Home({ section }: HomeProps) {
     <section
       id="home"
       className="relative h-screen max-h-[45rem] md:max-h-[70rem] w-full bg-discord-800 flex flex-col justify-center items-center"
-      // ref={el => appSections[0] = el}
     >
       <div className="flex flex-col justify-between items-center gap-12 md:gap-20">
         <div className="flex flex-col justify-between items-center gap-10 text-white">

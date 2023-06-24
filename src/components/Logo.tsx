@@ -1,4 +1,4 @@
-// Fix img src url in the future
+// Do I need to use import.meta.url?
 import faceImg from "../assets/images/logo_pic.png";
 import { PageSections } from "../interfaces/PageSections.interface";
 
